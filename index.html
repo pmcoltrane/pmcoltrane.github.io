@@ -20,7 +20,7 @@
         <article style="clear:both">
             <p>Welcome to my GitHub Pages site. This is a work-in-progress. For now, please find my GitHub projects listed below.</p>
             <ul>
-                <li ng-repeat="repo in repos | filter: {name: '!pmcoltrane.github.io'}"><a ng-href="{{repo.url}}">{{repo.name}}</a> - {{repo.description || 'No description available'}}</li>
+                <li ng-repeat="repo in repos | filter: {name: '!pmcoltrane.github.io'}"><a ng-href="{{repo.html_url}}">{{repo.name}}</a> - {{repo.description || 'No description available'}}</li>
             </ul>
         </article>
     </body>
