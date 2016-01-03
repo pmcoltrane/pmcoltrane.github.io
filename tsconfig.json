@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "inlineSourceMap": true,
+        "target": "es5",
+        "outFile": "js/app.js"
+    },
+    "exclude": [
+        ".vscode",
+        "assets",
+        "js",
+        "typings"
+    ]
+}
