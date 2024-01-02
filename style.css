@@ -1,0 +1,100 @@
+body
+{
+    background:floralwhite;
+    color:black;
+    font-family:"Comfortaa",sans-serif;
+    margin:0;
+    user-select:none;
+}
+
+nav
+{
+    background:white;
+    border:solid black 1px;
+    border-right:none;
+    box-shadow:5px 5px 5px gray;
+    float:right;
+    position:fixed;
+    right:-10px;
+    margin:10px;
+    padding:10px;
+    min-width:100px;
+}
+
+nav ul
+{
+    font-size:large;
+    list-style-type:none;
+    padding:0;
+    
+}
+
+nav ul a
+{
+    font-weight:bold;
+    color:black;
+    text-decoration:underline dashed;
+}
+
+a:hover, a:active
+{
+    color:red;
+}
+
+header
+{
+    font-family:'Archivo Black',sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0;
+    max-width:640px;
+    text-align:left;    
+}
+
+main
+{
+    background:white;
+    border:solid black 1px;
+    box-shadow:5px 5px 5px gray;
+    margin:10px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:640px;
+    padding:10px;
+    user-select:text;
+}
+
+hr
+{
+    border:solid black 1px;
+    box-shadow:1px 1px 5px gray;
+}
+
+footer
+{
+    margin:10px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:640px;
+    text-align:center;
+}
+
+.inline-logo
+{
+    width: 1em;
+    height: 1em;
+    padding:0;
+    padding-right:2px;
+    vertical-align:bottom;
+}
+
+.link-list
+{
+    list-style-type:none;
+    padding:0;
+}
+
+.link-list a
+{
+    font-size:large;
+}
