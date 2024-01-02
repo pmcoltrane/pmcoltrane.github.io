@@ -2,34 +2,20 @@ body
 {
     background:floralwhite;
     color:black;
+    font-size:12px;
+    line-height:18px;
     font-family:"Comfortaa",sans-serif;
     margin:0;
     user-select:none;
 }
 
-nav
+ul
 {
-    background:white;
-    border:solid black 1px;
-    border-right:none;
-    box-shadow:5px 5px 5px gray;
-    float:right;
-    position:fixed;
-    right:-10px;
-    margin:10px;
-    padding:10px;
-    min-width:100px;
-}
-
-nav ul
-{
-    font-size:large;
     list-style-type:none;
-    padding:0;
-    
+    padding-left:0;
 }
 
-nav ul a
+a
 {
     font-weight:bold;
     color:black;
@@ -38,7 +24,7 @@ nav ul a
 
 a:hover, a:active
 {
-    color:red;
+    color:crimson;
 }
 
 header
@@ -47,8 +33,24 @@ header
     margin-left:auto;
     margin-right:auto;
     margin-bottom:0;
-    max-width:640px;
-    text-align:left;    
+    max-width:320px;
+    text-align:center;    
+}
+
+h1
+{
+    font-size:x-large;
+}
+
+h2
+{
+    font-size:medium;
+}
+
+h3
+{
+    color:gray;
+    font-size:small;
 }
 
 main
@@ -59,7 +61,7 @@ main
     margin:10px;
     margin-left:auto;
     margin-right:auto;
-    max-width:640px;
+    max-width:320px;
     padding:10px;
     user-select:text;
 }
@@ -79,22 +81,13 @@ footer
     text-align:center;
 }
 
-.inline-logo
+a img
 {
-    width: 1em;
-    height: 1em;
+    width: 18px;
+    height: 18px;
     padding:0;
     padding-right:2px;
     vertical-align:bottom;
-}
-
-.link-list
-{
-    list-style-type:none;
-    padding:0;
-}
-
-.link-list a
-{
-    font-size:large;
+    filter: saturate(0);
+    object-fit: fill;
 }
